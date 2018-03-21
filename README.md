@@ -1,5 +1,6 @@
 # BitmapFractalGenerator
-A complex C++ application project from the Udemy course "Learn Advanced C++ Programming" by John Purcell
+A complex C++ application 
+This is a project from the Udemy course "Learn Advanced C++ Programming" by John Purcell
 
 I used Code::Blocks 16.01 with the default complier to complete this project.
 
