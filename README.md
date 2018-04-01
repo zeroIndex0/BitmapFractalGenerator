@@ -15,4 +15,5 @@ Here are some example photos of the project:
 ![screenshot](example4.bmp)
 ![screenshot](example2.bmp)
 ![screenshot](example3.bmp)
-You might have figured out at this point that I'm not so good with colors
+
+    You might have figured out at this point that I'm not so good with colors
