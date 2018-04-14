@@ -18,7 +18,6 @@ int main(void) {
 
     int height = 600;
     int width  = 800;
-    double const ZOOM_SIZE = 4.0;
 
 
     FractalCreator fractalCreator(width, height);
@@ -40,7 +39,6 @@ int main(void) {
     //into a photo editor and putting your cursor over a point and seeing what the pixel location is
     //its easy to find in gimp and not so easy to find in photoshop, but it is there
     //and the thrid value is the scale at which you want to zoom, adjusting this can give some strange results, but maybe you want that
-    fractalCreator.addZoom(Zoom(width/2, height/2, ZOOM_SIZE / width));
     fractalCreator.addZoom(Zoom(295, 202, 0.1));
     fractalCreator.addZoom(Zoom(312, 304, 0.1));
 //    fractalCreator.addZoom(Zoom(312, m_height -304, 0.1));
