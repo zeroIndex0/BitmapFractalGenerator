@@ -10,6 +10,8 @@ This program will generate the Mandelbrot fractal.  It has a zoom feature that y
 or you can uncomment some of the zoom features to go deeper into the fractal.  If you decide you want to zoom further in on a 
 different location, load up the image into a photo editor and find the pixel coordinates you want to zoom in on along with the scale you want to use and pass them into the addZoom(xPos, yPos, scale) that is sitting in main.
 
+While creating the files for this program, it became a lesson as to why the use of namespaces can be a bad idea on large projects.  Namespaces make it far too easy to forget where you are calling functions from and even though the code looks cleaner, the overall structure becomes messy due to obfuscation.
+
 Here are some example photos of the project:
 
 ![screenshot](example4.bmp)
