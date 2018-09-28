@@ -59,7 +59,7 @@ void FractalCreator::run(string name) {
 
 
 
-//had a bug here for a while driving me insane, but it was just one misplaced ')'  figures.
+//Constructor
 FractalCreator::FractalCreator(int width, int height) :
     m_width(width),
     m_height(height),
